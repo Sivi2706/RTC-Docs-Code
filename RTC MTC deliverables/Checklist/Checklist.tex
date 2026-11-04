@@ -1,0 +1,179 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=18mm,headheight=14pt,footskip=13mm]{geometry}
+\usepackage{booktabs,longtable,array,ragged2e}
+\usepackage[table]{xcolor}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{microtype}
+\hypersetup{colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!50!black,pdftitle={RTC 2027 3K Electronics MDR Checklist}}
+\definecolor{Navy}{HTML}{17324D}
+\definecolor{Teal}{HTML}{087F8C}
+\definecolor{VeryLight}{HTML}{EEF5F7}
+\definecolor{Muted}{HTML}{55677B}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.17}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{Navy}RTC 2027 \textbullet\ Student 3K}
+\fancyhead[R]{\small\color{Muted}Electronics MDR checklist}
+\fancyfoot[L]{\scriptsize\color{Muted}Internal preparation checklist; not an official submission form}
+\fancyfoot[R]{\scriptsize\color{Muted}\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\src}[1]{{\footnotesize #1}}
+\newcommand{\citem}[2]{\(\square\) & #1 & \src{#2}\\\addlinespace[3.2pt]}
+\newcommand{\checktable}{%
+\begin{longtable}{@{}>{\centering\arraybackslash}p{0.052\textwidth}>{\RaggedRight\arraybackslash}p{0.625\textwidth}>{\RaggedRight\arraybackslash}p{0.245\textwidth}@{}}
+\rowcolor{VeryLight}\textbf{Done} & \textbf{MDR checklist item} & \textbf{Source document and location} \\
+\midrule
+\endfirsthead
+\rowcolor{VeryLight}\textbf{Done} & \textbf{MDR checklist item (continued)} & \textbf{Source document and location} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{\footnotesize\color{Muted}\emph{Continued on next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+}
+\newcommand{\finishchecktable}{\end{longtable}}
+\newcommand{\checksection}[2]{\Needspace{14\baselineskip}\section{#1}\vspace{-6pt}{\small\color{Muted}#2}\par\vspace{5pt}}
+\begin{document}
+\begin{center}
+{\color{Navy}\LARGE\bfseries RTC 2027: Electronics MDR Checklist}\\[5pt]
+{\large Student 3K Category}\\[5pt]
+{\color{Muted}Avionics \textbullet\ Recovery Electronics \textbullet\ Official GPS \textbullet\ Additional Mission Payload \textbullet\ Electrical Integration}
+\end{center}
+\vspace{5pt}
+\colorbox{VeryLight}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+\textbf{MDR deadline: 13 November 2026.} This is an internal checklist for the electronics team's contribution to the \textbf{single team MDR}, not a request to submit separate subsystem reports. The overall MDR is limited to \textbf{21 pages} and is submitted as a searchable PDF. \textbf{At MDR:} propose and justify the design and verification plan; completed flight-ready hardware and final verification evidence belong to later reviews.}}
+\vspace{5pt}
+\textbf{Source key (files from the uploaded RTC package)}
+\begin{longtable}{@{}p{0.08\linewidth}p{0.37\linewidth}p{0.49\linewidth}@{}}
+\toprule
+\textbf{Code} & \textbf{Filename} & \textbf{Document}\\\midrule
+A01 & \texttt{appendix\_01.pptx} & Mission Plan Report example / slide template\\
+A03 & \texttt{appendix\_03.pdf} & Rocket Design Specifications\\
+A06 & \texttt{appendix\_06.pdf} & Competition Rules Explanation, version 2\\
+A07 & \texttt{appendix\_07.xlsx} & MDR scoring and Design Maturity Matrix\\
+A08 & \texttt{appendix\_08.xlsx} & Launch Permit Inspection Checklist\\
+A10 & \texttt{appendix\_10.xlsx} & Requirements Matrix Example\\
+A12 & \texttt{appendix\_12.xlsx} & FMEA Example\\
+A13 & \texttt{appendix\_13.xlsx} & Rocket Design Specification Data Sheet\\
+A14 & \texttt{appendix\_14.xlsx} & Rocket Sensor Item List\\
+\bottomrule
+\end{longtable}
+{\small\color{Muted}\textbf{How to use:} Tick each box once its content is prepared for the MDR. Citations identify the underlying competition rule, example template or scoring criterion. Items labelled ``propose'', ``describe'', or ``plan'' are MDR work products; they do not assert that hardware testing is already complete.}
+
+\checksection{Mission objectives and functional requirements}{Related MDR scoring: mission objectives and system requirements (20 marks each).}
+\checktable
+\citem{Define what the rocket electronics must accomplish during the 3K mission.}{A01, Slides 2 and 9; A07, worksheet \texttt{03\_MDR}}
+\citem{Define measurable success, partial-success and failure criteria for avionics and the additional mission payload.}{A07, worksheet \texttt{03\_MDR}, Row 6}
+\citem{List functional requirements for avionics, recovery electronics, official GPS and the additional payload.}{A01, Slide 9; A07, worksheet \texttt{03\_MDR}, Row 7}
+\citem{Link each functional requirement to a mission objective and a responsible subsystem.}{A07, worksheet \texttt{03\_MDR}, Row 7; A10}
+\citem{Define the four required flight-data outputs: altitude, velocity, acceleration and GPS trajectory.}{A03, Section 2.1}
+\citem{Create a mission profile showing flight phases, altitude, time, recovery events and payload operations.}{A01, Slides 9--10; A06, PDF page 18}
+\finishchecktable
+
+\checksection{Avionics system}{Flight computer, sensing, flight-state decisions and logging.}
+\checktable
+\citem{Prepare a block diagram showing the flight computer, sensors, storage, power and external interfaces.}{A07, worksheet \texttt{03\_MDR}, Row 8; A01, Slide 9}
+\citem{Propose a controller, barometer, IMU and onboard data storage, with a brief selection rationale.}{A06, PDF pages 21 and 23; A07, worksheet \texttt{03\_MDR}}
+\citem{Explain how launch, ascent, apogee and descent will be detected.}{A03, Section 4.2.2.4; A01, Slide 11}
+\citem{Describe how altitude, velocity, acceleration and GPS trajectory will be obtained and recorded.}{A03, Section 2.1}
+\citem{Propose sampling rates, sensor ranges, logging formats, measurement units and timestamps. These are team-defined targets.}{A07, worksheet Design Maturity Matrix (Sheet 14), Row 31; worksheet 3K Flight (Sheet 11), Row 19}
+\citem{Explain how vibration, impact and sensor measurement error will be addressed.}{A03, Section 4.1.2}
+\citem{Describe how normal avionics operation and system/arming status will be confirmed.}{A13, Rows 12--14; A03, Section 4.6.7}
+\finishchecktable
+
+\checksection{Recovery electronics and deployment}{Two-stage deployment, activation reliability and safety.}
+\checktable
+\citem{Show the two-stage concept: drogue at apogee and main parachute at a selected lower altitude.}{A03, Section 4.2.2.4}
+\citem{Select a preliminary main deployment altitude, normally 150--450 m above ground, consistent with the below-500 m inspection criterion.}{A03, Section 4.2.2.4; A08, Row 8}
+\citem{Explain the proposed recovery-release mechanism and its electrical-control interface.}{A03, Sections 4.2.1--4.2.2}
+\citem{Show how independent or redundant recovery activation will be achieved.}{A03, Section 4.1.3}
+\citem{Show redundancy in the recovery release arrangement.}{A03, Section 4.2.2.2}
+\citem{Describe safe and armed states, independent safety conditions and safe arming-status confirmation.}{A03, Sections 4.6.3--4.6.7}
+\citem{Account for the final water-contact descent-speed limit of less than 12 m/s.}{A03, Section 4.2.4; A08, Row 8}
+\citem{Plan sensor-trigger, recovery-activation and representative environmental tests.}{A03, Sections 4.2.2.3 and 4.5.1--4.5.3}
+\finishchecktable
+
+\checksection{Official GPS tracking and communications}{The organiser's tracking beacon is distinct from the additional mission payload.}
+\checktable
+\citem{Identify the organiser-standard GPS tracker as a required 3K subsystem separate from the additional mission payload.}{A03, Sections 2.2 and 5.1.1}
+\citem{Show proposed GPS beacon location, mounting and electrical/physical interfaces.}{A03, Section 5.1.1; A01, Slide 8}
+\citem{Describe how GPS tracking supports rocket location and recovery after landing.}{A03, Section 5.1; A08, Row 26}
+\citem{Plan how normal GPS operation and position reporting will be demonstrated.}{A03, Section 5.1.2; A08, Row 26}
+\citem{If using extra radio telemetry, document the proposed frequency, messages, receiver and regulatory compliance.}{A03, Sections 4.1.4.1--4.1.4.3}
+\finishchecktable
+
+\checksection{Additional mission payload and electronics}{A team-defined payload with measurable flight success criteria.}
+\checktable
+\citem{Define the additional payload mission objective and its core function.}{A03, Section 2.2; A07, worksheet \texttt{03\_MDR}, Row 6}
+\citem{Define measurable success, partial success and failure criteria for the payload.}{A07, worksheet \texttt{03\_MDR}, Row 6; worksheet 3K Flight (Sheet 11), Row 20; A13, Row 36}
+\citem{Identify preliminary payload sensors, controller, storage, other hardware and operating sequence, if applicable.}{A06, PDF page 23; A07, worksheet Design Maturity Matrix (Sheet 14), Row 15}
+\citem{Choose the permitted operation configuration: independent operation with retention until parachute opening, or in-body operation with avionics communication throughout flight.}{A03, Section 7.1.1}
+\citem{Define payload electrical, data/communication and mechanical interfaces.}{A06, PDF pages 21 and 23; A07, worksheet Design Maturity Matrix (Sheet 14), Row 15}
+\citem{Explain compliance with the payload restriction on prohibited stored-energy devices.}{A03, Section 7.1.2}
+\citem{Specify payload battery requirements and applicable radio compliance where wireless transmission is used.}{A03, Sections 7.1.3--7.1.4}
+\citem{Confirm the additional payload does not contain living vertebrates.}{A03, Section 7.1.5}
+\citem{Explain what recorded measurements or other evidence will demonstrate mission completion in flight.}{A07, worksheet 3K Flight (Sheet 11), Row 20}
+\finishchecktable
+
+\checksection{Power, wiring and electronic integration}{Electrical endurance, mechanical support and subsystem interfaces.}
+\checktable
+\citem{Select a proposed battery chemistry and summarize the safety considerations.}{A03, Section 4.7.1}
+\citem{Prepare a power budget showing more than 1.5 hours of normal electrical operation.}{A03, Section 4.7.2; A08, Row 6}
+\citem{Describe battery mounting that prevents intermittent disconnection under acceleration or vibration.}{A03, Section 4.7.3}
+\citem{Specify secure safety-critical wiring, cable labels, connector strain relief and PCB support.}{A03, Sections 4.4.2--4.4.5}
+\citem{Identify subsystem power/data interfaces and any shared supplies or dependencies.}{A06, PDF page 21; A07, worksheet Design Maturity Matrix (Sheet 14), Row 12}
+\citem{Show the preliminary electronics location and estimated subsystem mass in the rocket concept.}{A01, Slide 8; A07, worksheet Design Maturity Matrix (Sheet 14), Row 16}
+\finishchecktable
+
+\checksection{Budget, planning, risks and verification}{Related MDR scoring: team/resources and initial risks/verification (20 marks each).}
+\checktable
+\citem{Prepare a preliminary electronics BOM with specifications, quantities, make-or-buy decisions and prices.}{A01, Slides 6--7; A07, worksheet \texttt{03\_MDR}, Row 9}
+\citem{Assign owners for avionics, recovery electronics, GPS integration and payload electronics.}{A01, Slides 3--4}
+\citem{Prepare a Gantt chart for design, procurement, fabrication, programming, testing and integration.}{A01, Slide 5; A06, PDF page 17}
+\citem{Create a development flowchart showing subsystem dependencies and integration sequence.}{A01, Slide 11}
+\citem{Prepare a requirements-verification matrix with ID, source, owner, verification method and planned evidence.}{A06, PDF page 24; A10}
+\citem{Specify which requirements will be checked by inspection, demonstration, analysis or test.}{A06, PDF page 24}
+\citem{Develop a preliminary FMEA covering power loss, sensor error, processor failure, recovery failure, radio failure and payload malfunction.}{A01, Slide 12; A12}
+\citem{State key design uncertainties and how the team will resolve them.}{A07, worksheet \texttt{03\_MDR}, Rows 8 and 10}
+\finishchecktable
+
+\checksection{MDR versus later review stages}{Summarized from A07, worksheet Design Maturity Matrix (Sheet 14); the distinctions below are planning guidance.}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{0.25\textwidth}>{\RaggedRight\arraybackslash}p{0.32\textwidth}>{\RaggedRight\arraybackslash}p{0.34\textwidth}@{}}
+\toprule
+\rowcolor{VeryLight}\textbf{Design element} & \textbf{Prepare for MDR} & \textbf{Complete in later stages}\\\midrule\endfirsthead
+\rowcolor{VeryLight}\textbf{Design element} & \textbf{Prepare for MDR} & \textbf{Complete in later stages}\\\midrule\endhead
+\bottomrule\endlastfoot
+Electronics architecture & Preliminary proposal & Design baseline at PDR\\
+Avionics and payload specifications & Initial concepts and estimates & Finalized at CDR\\
+Payload success criteria & Initial measurable baseline & Finalization and subsequent verification\\
+Verification methods & Proposed methods & Supporting test results at PDR/CDR\\
+Functional test evidence & Not required as completed MDR evidence & Verification at later reviews\\
+FMEA & Preliminary risks and mitigations & Detailed analysis and verified mitigations\\
+Wiring and PCB & Preliminary architecture/interfaces & Detailed design and hardware verification\\
+Flight data & Not applicable at MDR & Post-flight reporting\\
+\end{longtable}
+
+\checksection{Recommended electronics-team MDR handover}{Suggested internal deliverables to integrate into the team's main report; not five separate mandatory TASA submissions.}
+\begin{enumerate}[leftmargin=*,itemsep=4pt]
+\item \textbf{Electronics architecture:} one integrated diagram for avionics, recovery, GPS, additional payload, and their interfaces.
+\item \textbf{Functional requirements matrix:} concise and measurable requirements with source and planned verification.
+\item \textbf{Preliminary design and budget:} component selections, mass/power estimates, costed BOM, and design rationale.
+\item \textbf{Development and verification roadmap:} responsibilities, milestones, integration sequence and planned tests.
+\item \textbf{Initial electronics FMEA:} important failure modes, consequences and proposed mitigations.
+\end{enumerate}
+\vspace{5pt}
+\colorbox{VeryLight}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+\textbf{MDR packaging reminder:} Electronics content is included within the overall slide-style MDR submission. Refer to A01 for the presentation example, and A07 (worksheet Documents and Presentation (Sheet 02)) for the searchable-PDF format and 21-page cap. The proposal should show how the final flight hardware \emph{will} meet the competition rules, without implying that later verification has already been completed.}}
+\end{document}
