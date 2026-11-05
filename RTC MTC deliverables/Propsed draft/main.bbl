@@ -525,6 +525,91 @@
       \verb http://elm-chan.org/fsw/ff/
       \endverb
     \endentry
+    \entry{ms5611ds}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=e77212721fbba86b6d5ceee154fed146}{%
+           family={{TE Connectivity}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{e77212721fbba86b6d5ceee154fed146}
+      \strng{fullhash}{e77212721fbba86b6d5ceee154fed146}
+      \strng{fullhashraw}{e77212721fbba86b6d5ceee154fed146}
+      \strng{bibnamehash}{e77212721fbba86b6d5ceee154fed146}
+      \strng{authorbibnamehash}{e77212721fbba86b6d5ceee154fed146}
+      \strng{authornamehash}{e77212721fbba86b6d5ceee154fed146}
+      \strng{authorfullhash}{e77212721fbba86b6d5ceee154fed146}
+      \strng{authorfullhashraw}{e77212721fbba86b6d5ceee154fed146}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Revision and date to be confirmed against the purchased module}
+      \field{title}{{MS5611-01BA03} Barometric Pressure Sensor Datasheet}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.te.com/en/product-CAT-BLPS0036.html
+      \endverb
+      \verb{url}
+      \verb https://www.te.com/en/product-CAT-BLPS0036.html
+      \endverb
+    \endentry
+    \entry{knight1986}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=986e58edeec37e544fb30b6bf7827a92}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=a904242b95ac0658a69274092b012b49}{%
+           family={Leveson},
+           familyi={L\bibinitperiod},
+           given={Nancy\bibnamedelima G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e64d6d2b7553d9df2132c738e494225c}
+      \strng{fullhash}{e64d6d2b7553d9df2132c738e494225c}
+      \strng{fullhashraw}{e64d6d2b7553d9df2132c738e494225c}
+      \strng{bibnamehash}{e64d6d2b7553d9df2132c738e494225c}
+      \strng{authorbibnamehash}{e64d6d2b7553d9df2132c738e494225c}
+      \strng{authornamehash}{e64d6d2b7553d9df2132c738e494225c}
+      \strng{authorfullhash}{e64d6d2b7553d9df2132c738e494225c}
+      \strng{authorfullhashraw}{e64d6d2b7553d9df2132c738e494225c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Software Engineering}
+      \field{number}{1}
+      \field{title}{An experimental evaluation of the assumption of independence in multiversion programming}
+      \field{volume}{SE-12}
+      \field{year}{1986}
+      \field{pages}{96\bibrangedash 109}
+      \range{pages}{14}
+    \endentry
+    \entry{fram}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=a3ceea20579dfd1b70c4de7d142878d7}{%
+           family={{Fujitsu Semiconductor}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3ceea20579dfd1b70c4de7d142878d7}
+      \strng{fullhash}{a3ceea20579dfd1b70c4de7d142878d7}
+      \strng{fullhashraw}{a3ceea20579dfd1b70c4de7d142878d7}
+      \strng{bibnamehash}{a3ceea20579dfd1b70c4de7d142878d7}
+      \strng{authorbibnamehash}{a3ceea20579dfd1b70c4de7d142878d7}
+      \strng{authornamehash}{a3ceea20579dfd1b70c4de7d142878d7}
+      \strng{authorfullhash}{a3ceea20579dfd1b70c4de7d142878d7}
+      \strng{authorfullhashraw}{a3ceea20579dfd1b70c4de7d142878d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Part choice illustrative; any I2C FRAM with equivalent features may be used; revision to be confirmed}
+      \field{title}{{MB85RC256V}: 256\,Kbit {I2C} {FRAM} Datasheet}
+    \endentry
     \entry{rtc2027app12}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=2e25bb98d5902406958e10cc2bf4d304}{%
@@ -540,8 +625,8 @@
       \strng{authorfullhash}{2e25bb98d5902406958e10cc2bf4d304}
       \strng{authorfullhashraw}{2e25bb98d5902406958e10cc2bf4d304}
       \field{extraname}{5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Competition document, \texttt{appendix\_12.xlsx}}
@@ -562,8 +647,8 @@
       \strng{authornamehash}{c276e5e25dabfcb5829609b82a1e01ca}
       \strng{authorfullhash}{c276e5e25dabfcb5829609b82a1e01ca}
       \strng{authorfullhashraw}{c276e5e25dabfcb5829609b82a1e01ca}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{number}{MIL-STD-1629A}

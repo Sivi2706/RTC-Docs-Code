@@ -1,0 +1,4 @@
+evidence_class,count,definition
+A,1,actual reported flight apogee <=3000 m
+B,4,"3 km class/target, actual flight not verified here"
+C,2,lower-altitude competition context
