@@ -1,8 +1,0 @@
-category,match_count,denominator,rule
-Altitude_or_navigation,501,1148,\bimu\b|inertial|baromet|\bgps\b|\bgnss\b|altimet|navigation|attitude
-Telemetry_or_ground_link,423,1148,telemetr|downlink|ground station
-Flight_computer_or_avionics,238,1148,\bflight computer\b|\bavionics\b|\bonboard computer\b
-Recovery_or_deployment,132,1148,parachute|recovery system|drogue|apogee|deploy
-Redundancy_or_faults,93,1148,redundan|fault.toleran|fail.safe|watchdog|fault.detect
-Data_logging_or_storage,56,1148,data log|data record|sd card|\bflash memory\b|black box|data acquisition
-Power_or_energy,27,1148,power suppl|battery|power distribut|energy storag|supercapacitor

@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>main.bcf</file>
+      <file>"Litt Review".bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>main.bbl</file>
+      <file>"Litt Review".bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -63,26 +63,26 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>main</infile>
+      <infile>"Litt Review"</infile>
     </cmdline>
     <input>
-      <file>main.bcf</file>
+      <file>"Litt Review".bcf</file>
     </input>
     <output>
-      <file>main.bbl</file>
+      <file>"Litt Review".bbl</file>
     </output>
     <provides type="dynamic">
-      <file>main.bbl</file>
+      <file>"Litt Review".bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>main.bcf</file>
+      <file>"Litt Review".bcf</file>
     </requires>
     <requires type="editable">
-      <file>RTC_2027_Pico_MDR_refs.bib</file>
+      <file>RTC_2027_3km_Avionics_Payload_Evidence_Review_Fulltext_Amended.bib</file>
     </requires>
   </external>
 </requests>

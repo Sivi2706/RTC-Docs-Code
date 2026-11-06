@@ -1,7 +1,0 @@
-element,count,source
-BMP390 barometers,2,"AVES II public technical report, Sec. 3.5.1"
-MS5607 barometers,2,"AVES II public technical report, Sec. 3.5.1"
-BMI088 IMUs,2,"AVES II public technical report, Sec. 3.5.1"
-H3LIS331DL high-g accelerometers,2,"AVES II public technical report, Sec. 3.5.1"
-SAM-M8Q GNSS receivers,2,"AVES II public technical report, Sec. 3.5.1"
-SD cards,2,"AVES II public technical report, Sec. 3.5.1"

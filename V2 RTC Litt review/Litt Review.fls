@@ -1,10 +1,7 @@
-PWD c:\Users\SIVI\Documents\Aeronotts\2027\RTC\Github\RTC Docs + Code\RTC_2027_Corrected_MDR_and_Review_Complete
+PWD c:\Users\SIVI\Documents\Aeronotts\2027\RTC\Github\RTC Docs + Code\V2 RTC Litt review
 INPUT C:\Users\SIVI\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\SIVI\Documents\Aeronotts\2027\RTC\Github\RTC Docs + Code\RTC_2027_Corrected_MDR_and_Review_Complete\RTC_2027_3K_Pico_Electronics_MDR_Corrected.tex
-OUTPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.log
-INPUT .\RTC_2027_Pico_MDR_refs.bib
-INPUT RTC_2027_Pico_MDR_refs.bib
-OUTPUT RTC_2027_Pico_MDR_refs.bib
+INPUT c:\Users\SIVI\Documents\Aeronotts\2027\RTC\Github\RTC Docs + Code\V2 RTC Litt review\Litt Review.tex
+OUTPUT Litt Review.log
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -38,10 +35,6 @@ INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype-
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.cfg
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -60,12 +53,26 @@ INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
@@ -321,51 +328,16 @@ INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\pgfgantt\pgfgantt.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\pgfgantt\pgfgantt.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypatterns.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypatterns.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypatterns.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibrarypatterns.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibrarypatterns.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibrarypatterns.code.tex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfcalendar.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfcalendar.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfcalendar.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfcalendar.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfcalendar.code.tex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.def
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
@@ -462,26 +434,14 @@ INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-ex
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.aux
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.aux
-INPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.aux
-OUTPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.aux
+INPUT .\Litt Review.aux
+INPUT .\Litt Review.aux
+INPUT Litt Review.aux
+OUTPUT Litt Review.aux
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
@@ -493,27 +453,24 @@ INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopd
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
-INPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
-INPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
-OUTPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.pdf
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
-OUTPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
+INPUT .\Litt Review.out
+INPUT .\Litt Review.out
+INPUT Litt Review.out
+INPUT Litt Review.out
+OUTPUT Litt Review.pdf
+INPUT .\Litt Review.out
+INPUT .\Litt Review.out
+OUTPUT Litt Review.out
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.bcf
-INPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.bbl
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.bbl
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.bbl
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.bbl
-INPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.bbl
+OUTPUT Litt Review.bcf
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr9.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx9.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri9.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -554,66 +511,50 @@ INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr7.tfm
+INPUT C:\Users\SIVI\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt9.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx10.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx7.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx5.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx8.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr9.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi9.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy9.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx9.tfm
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx6.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
-INPUT C:\Users\SIVI\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr7.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx8.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx7.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr5.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx5.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri7.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
-INPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.aux
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
-INPUT .\RTC_2027_3K_Pico_Electronics_MDR_Corrected.out
-INPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.run.xml
-OUTPUT RTC_2027_3K_Pico_Electronics_MDR_Corrected.run.xml
+INPUT Litt Review.aux
+INPUT .\Litt Review.out
+INPUT .\Litt Review.out
+INPUT Litt Review.run.xml
+OUTPUT Litt Review.run.xml
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx5.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx5.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx7.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx7.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx8.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx8.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx9.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx9.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi5.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi5.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi7.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi7.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi9.pfb
@@ -622,8 +563,6 @@ INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pf
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr5.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr5.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr7.pfb
@@ -634,19 +573,13 @@ INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr9.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr9.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri7.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri7.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri9.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri9.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy7.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy7.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy9.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy9.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
-INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt9.pfb
+INPUT C:\Users\SIVI\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt9.pfb
